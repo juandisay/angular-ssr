@@ -4,8 +4,7 @@
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
-    "start:heroku": "node dist/server/main.js",
-    "postinstall": "npm run build:ssr",
+    "start:ssr": "node dist/server/main.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
