@@ -4,8 +4,10 @@
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
-    "start:ssr": "node dist/server/main.js",
     "ng": "ng",
+    "start": "ng serve:ssr",
+    "build": "ng build:ssr",
+    "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "dev:ssr": "ng run angular.io-example:serve-ssr",
