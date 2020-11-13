@@ -1,7 +1,7 @@
 {
-  "name": "angular.io-example",
+  "name": "angular-ssr",
   "version": "0.0.0",
-  "description": "Example project from an angular.io guide.",
+  "description": "angular-ssr.",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -10,10 +10,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run angular.io-example:serve-ssr",
+    "dev:ssr": "ng run angular-ssr:serve-ssr",
     "serve:ssr": "node dist/server/main.js",
-    "build:ssr": "ng build --prod && ng run angular.io-example:server:production",
-    "prerender": "ng run angular.io-example:prerender"
+    "build:ssr": "ng build --prod && ng run angular-ssr:server:production",
+    "prerender": "ng run angular-ssr:prerender"
   },
   "private": true,
   "dependencies": {
