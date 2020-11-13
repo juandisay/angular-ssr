@@ -1,6 +1,9 @@
 {
   "name": "angular-ssr",
   "version": "0.0.1",
+  "engines": {
+    "node": "10.x"
+  },
   "description": "angular-ssr.",
   "license": "MIT",
   "scripts": {
